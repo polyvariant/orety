@@ -9,6 +9,9 @@ ThisBuild / tlSonatypeUseLegacyHost := false
 ThisBuild / tlFatalWarnings := false
 ThisBuild / tlFatalWarningsInCi := false
 
+ThisBuild / scalaVersion := "3.6.2"
+ThisBuild / crossScalaVersions := Seq("3.6.2")
+
 lazy val root = (project in file("."))
   .settings(
     name         := "orety",

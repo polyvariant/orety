@@ -19,7 +19,6 @@ package orety
 import cats.syntax.all.*
 import cats.{Applicative, MonadError}
 import cats.effect.IO
-import retry.*
 import scala.concurrent.duration._
 import scala.collection.LinearSeq
 
